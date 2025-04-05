@@ -8,7 +8,7 @@ Very happy about that one :grinning:
 ## I learn about **oversampling** in the *slc_v2_traindata_oversampling* notebook
 Since the dataset is quite imbalanced I use image augmentation to create more training samples for the model and use those in conjunction with class weights in the loss function.
 ![augmented images](https://github.com/user-attachments/assets/c7c742c7-47d1-4f60-b24b-2066a5424bae)
-
+![training_samples_distribution](https://github.com/user-attachments/assets/13041712-e5ca-407a-b581-a8b3ffa0a276)
 
 ## I run an experiment on several models in the *slc_v2-model_selection_experiments* notebook
 I compare 4 model architectures' performance on the dataset. This was intended as a Tensorboard learning experience but unfortunately it didn't work in Colab, so instead it was a reminder and practice of working with multi-indexed pandas dataframes :+1:
