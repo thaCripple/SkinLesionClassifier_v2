@@ -1,4 +1,5 @@
 # SkinLesionClassifier_v2
+This repository describes the steps I took to create SkinSense - a skin lesion image classifier application hosted on Huggingface Spaces ![SkinSense](https:) ***ADD LINK TO APP***
 
 ## I learn how to create utility functions, store them in a module on github and import them as needed
 I created several helper functions and classes that I reuse throughout the workflow. I learned how to create my own python package and download only select files and folders from a repository.
@@ -34,4 +35,13 @@ It also achieves prediction speed well below the treshold of ~5-10 seconds I had
 ![metrics](https://github.com/user-attachments/assets/d542fa23-1061-4333-90b5-dac4ecc68fe2)
 ![sizes](https://github.com/user-attachments/assets/cc7acf7c-538b-4436-9212-1115b4c2d49a)
 ![times](https://github.com/user-attachments/assets/97a1fe72-32e0-40f2-93f7-37e3d7ef571f)
+
+## Finally I create a Gradio Demo hosted on Huggingface Spaces in *slc_v2_demo.ipybn*
+I am very excited to apply the model in a practical way and create a tool with actual real-life use. Working with Gradio reminded me how much fun I had building GUIs with PyQt6 :grin:
+
+I have learned so much in the course of this project. It has been very challenging but ultimately incredibly rewarding. 
+
+I have discovered so many topics and areas I would like to focus on and learn next! NLP seems like a natural next step but I have become fascinated with Reinforcement Learning - the potential applications are awesome 🤯 
+I would also love to learn to create at least simple websites. This seems like a such a powerful and important ability. Learning HTML, CSS and javascript seems like quite a journey but I think it will be extremely worthwhile.
+There's so much amazing knowledge to acquire - one lifetime is simply not enough time :dizzy_face: No time to waste! :smiley:
 
