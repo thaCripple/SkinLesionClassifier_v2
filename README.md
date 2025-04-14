@@ -1,5 +1,5 @@
 # SkinLesionClassifier_v2
-This repository describes the steps I took to create ![SkinSense](https://huggingface.co/spaces/mgrzb451/SkinSense/) - a skin lesion image classifier application hosted on Huggingface Spaces
+This repository describes the steps I took to create [SkinSense](https://huggingface.co/spaces/mgrzb451/SkinSense/) - a skin lesion image classifier application hosted on Huggingface Spaces
 
 This project has been my 1st notable undertaking and achievement on my programming and AI journey. Throughout I learned, among others:
 * big file handling; programatically manipulating files: pathlib, unix commands, shutil
