@@ -1,6 +1,16 @@
 # SkinLesionClassifier_v2
 This repository describes the steps I took to create SkinSense - a skin lesion image classifier application hosted on Huggingface Spaces ![SkinSense](https:) ***ADD LINK TO APP***
 
+This project has been my 1st notable undertaking and achievement on my programming and AI journey. Throughout I learned, among others:
+* big file handling; programatically manipulating files: pathlib, unix commands, shutil
+* optimizing dataloader parameters for faster sample retreival,
+* details and inner workings of learning rates and the relation to the batch size,
+* mechanics of early stopping in Pytorch,
+* functionality of `torch.compile` and `lightning.Fabric`,
+* creating and using custom Python modules,
+* more on how to use git and github,
+* basics of model deploymenet
+
 ## I learn how to create utility functions, store them in a module on github and import them as needed
 I created several helper functions and classes that I reuse throughout the workflow. I learned how to create my own python package and download only select files and folders from a repository.
 
@@ -36,7 +46,7 @@ It also achieves prediction speed well below the treshold of ~5-10 seconds I had
 ![sizes](https://github.com/user-attachments/assets/cc7acf7c-538b-4436-9212-1115b4c2d49a)
 ![times](https://github.com/user-attachments/assets/97a1fe72-32e0-40f2-93f7-37e3d7ef571f)
 
-## Finally I create a Gradio Demo hosted on Huggingface Spaces in *slc_v2_demo.ipybn*
+## Finally I create a Gradio Demo hosted on Huggingface Spaces in *slcv2-gradio_demo.ipynb*
 I am very excited to apply the model in a practical way and create a tool with actual real-life use. Working with Gradio reminded me how much fun I had building GUIs with PyQt6 :grin:
 
 I have learned so much in the course of this project. It has been very challenging but ultimately incredibly rewarding. 
